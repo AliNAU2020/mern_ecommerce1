@@ -8,3 +8,23 @@ body{
     height: 100vh;
     margin: 0;
 }
+
+.grid-container{
+    display:grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-areas: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+}
+
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+}
