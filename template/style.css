@@ -26,10 +26,21 @@ body{
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.header-links a{
+    color: #ffffff;
 }
 .main{
     grid-area: main;
 }
 .footer{
     grid-area: footer;
+    background-color: #203040;
+    color: #ffffff;
 }
