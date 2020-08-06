@@ -27,8 +27,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem;
 }
-.brand{
+.brand a{
     color: #ffffff;
     font-size: 2.5rem;
     font-weight: bold;
@@ -36,6 +37,11 @@ body{
 }
 .header-links a{
     color: #ffffff;
+    text-decoration: none;
+}
+
+.header-links a:hover{
+    color: #ff8000;
 }
 .main{
     grid-area: main;
@@ -44,4 +50,7 @@ body{
     grid-area: footer;
     background-color: #203040;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
