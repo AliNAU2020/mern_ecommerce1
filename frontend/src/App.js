@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import data from './data';
 import './App.css';
 
 function App() {
@@ -40,73 +40,21 @@ function App() {
     <main className = "main">
         <div className = "content">
             <ul className = "products">
+              {
+                data.products.map(product =>
+              
                 <li>
                     <div className = "product">
-                        <img className = "product-image" src = "/images/b1.jpg" alt = "product" />
+                        <img className = "product-image" src = {product.image} alt = "product" />
                         <div className = "product-name">
-                            <a href = "product.html"> Slim Work Backpack</a> 
+                            <a href = "product.html"> {product.name}</a> 
                         </div>
-                        <div className = "product-brand">Briggs & Riley</div>
-                        <div className = "product-price">$315</div>
-                        <div className = "product-rating">4.5 stars (10 reviews)</div>
+                        <div className = "product-brand">{product.brand}</div>
+                        <div className = "product-price">{product.price}</div>
+                        <div className = "product-rating">{product.rating} {(product.numReviews)}</div>
                     </div>
-                </li>
-                <li>
-                    <div className = "product">
-                        <img className = "product-image" src = "/images/b2.jpg" alt = "product" />
-                        <div className = "product-name">
-                            <a href = "product.html"> TSA ScanSmart Laptop Backpack</a> 
-                        </div>
-                        <div className = "product-brand">SwissGear</div>
-                        <div className = "product-price">$150</div>
-                        <div className = "product-rating">4.5 stars (10 reviews)</div>
-                    </div>
-                </li>
-                <li>
-                    <div className = "product">
-                        <img className = "product-image" src = "/images/b3.jpg" alt = "product" />
-                        <div className = "product-name">
-                            <a href = "product.html">AntiTheft Work Backpack</a> 
-                        </div>
-                        <div className = "product-brand">John Kart</div>
-                        <div className = "product-price">$65</div>
-                        <div className = "product-rating">4.5 stars (10 reviews)</div>
-                    </div>
-                </li>
-                <li>
-                    <div className = "product">
-                        <img className = "product-image" src = "/images/b4.jpg" alt = "product" />
-                        <div className = "product-name">
-                            <a href = "product.html"> Gym Duffle Bag</a> 
-                        </div>
-                        <div className = "product-brand">Nike</div>
-                        <div className = "product-price">$75</div>
-                        <div className = "product-rating">4.5 stars (10 reviews)</div>
-                    </div>
-                </li>
-                <li>
-                    <div className = "product">
-                        <img className = "product-image" src = "/images/b5.jpg" alt = "product" />
-                        <div className = "product-name">
-                            <a href = "product.html">Gym & Work Duffle Bag </a> 
-                        </div>
-                        <div className = "product-brand">WolfWarriorX</div>
-                        <div className = "product-price">$315</div>
-                        <div className = "product-rating">4.5 stars (10 reviews)</div>
-                    </div>
-                </li>
-                <li>
-                    <div className = "product">
-                        <img className = "product-image" src = "/images/b6.jpg" alt = "product" />
-                        <div className = "product-name">
-                            <a href = "product.html"> Travel Duffle Bag</a> 
-                        </div>
-                        <div className = "product-brand">Wowbox</div>
-                        <div className = "product-price">$175</div>
-                        <div className = "product-rating">5 stars (10 reviews)</div>
-                    </div>
-                </li>
-                
+                </li>)
+              } 
             </ul>
         </div>
         
