@@ -1,6 +1,7 @@
 export default {
     products: [
     {
+        _id: '1',
         name: 'Slim Work Backpack',
         category: 'Backpacks',
         image: '/images/b1.jpg',
@@ -11,6 +12,7 @@ export default {
     },
 
     {
+        _id: '2',
         name: 'TSA ScanSmart Laptop Backpack',
         category: 'Backpacks',
         image: '/images/b2.jpg',
@@ -21,6 +23,7 @@ export default {
     },
 
     {
+        _id: '3',
         name: 'AntiTheft Work Backpack',
         category: 'Backpacks',
         image: '/images/b3.jpg',
@@ -31,6 +34,7 @@ export default {
     },
     
     {
+        _id: '4',
         name: 'Gym Duffle Bag',
         category: 'Duffle Bags',
         image: '/images/b4.jpg',
@@ -41,6 +45,7 @@ export default {
     },
 
     {
+        _id: '5',
         name: 'Gym & Work Duffle Bag',
         category: 'Duffle Bags',
         image: '/images/b5.jpg',
@@ -51,6 +56,7 @@ export default {
     },
 
     {
+        _id: '6',
         name: 'Travel Duffle Bag',
         category: 'Duffle Bags',
         image: '/images/b6.jpg',
