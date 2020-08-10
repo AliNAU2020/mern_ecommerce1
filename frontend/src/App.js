@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './data';
+import data from './data' 
 import {BrowserRouter, Route, Link} from 'react-router-dom'
 import './App.css';
 import HomeScreen from './Screens/HomeScreen';
@@ -15,20 +15,20 @@ function App() {
   }
   return (
     <BrowserRouter>
-    <div className = "grid-container">
-    <header className= "header">
-    <div className = "brand">
-        <button onClick={openMenu}>
-            &#9776;
-        </button>
-        <Link to="/">amazon 101</Link>
-    </div>
-    <div className = "header-links">
-        <a href = "cart.html">Cart</a>
-        <a href = "signin.html">Sign In</a>
-    </div>
-</header>
-<aside className = "sidebar">
+      <div className = "grid-container">
+        <header className= "header">
+          <div className = "brand">
+              <button onClick={openMenu}>
+                &#9776;
+              </button>
+              <Link to="/">amazon 101</Link>
+          </div>
+          <div className = "header-links">
+            <a href = "cart.html">Cart</a>
+            <a href = "signin.html">Sign In</a>
+           </div>
+        </header>
+  <aside className = "sidebar">
     <h3>Shopping Categories</h3>
     <button className = "sidebar-close-button" onClick={closeMenu}>x</button>
     <ul>
@@ -40,8 +40,8 @@ function App() {
         </li>
     </ul>
 </aside>
-    <main className = "main">
-        <div className = "content">
+    <main className= "main">
+        <div className= "content">
           <Route path = "/products/:id" component={ProductScreen} />
           <Route path = "/" exact = {true} component ={HomeScreen} />
            
