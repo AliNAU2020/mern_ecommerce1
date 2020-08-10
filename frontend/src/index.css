@@ -146,6 +146,7 @@ a:hover{
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding: 1rem;
 }
 .details-image{
   flex: 2 1 60rem;
@@ -166,4 +167,13 @@ a:hover{
 }
 .details-info, li, .details-action li{
   margin-bottom: 1rem;
+}
+.back-to-result{
+  padding: 1rem;
+}
+.details-action{
+  border: 1rem #808080 solid;
+  border-radius: 0.5rem;
+  background-color: #f8f8f8;
+  padding: 1rem;
 }
