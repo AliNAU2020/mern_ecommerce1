@@ -64,5 +64,7 @@ export default {
         brand: 'Wowbox',
         rating: 5,
         numReviews: 10
-    }]
+    },
+]
+
 }
