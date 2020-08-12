@@ -8,7 +8,8 @@ export default {
         price: 315,
         brand: 'Briggs & Riley',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        countinStock: 6,
     },
 
     {
@@ -19,7 +20,8 @@ export default {
         price: 150,
         brand: 'SwissGear',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        countinStock: 6,
     },
 
     {
@@ -30,7 +32,8 @@ export default {
         price: 65,
         brand: 'John Kart',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        countinStock: 6,
     },
     
     {
@@ -41,7 +44,8 @@ export default {
         price: 75,
         brand: 'Nike',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        countinStock: 6,
     },
 
     {
@@ -52,7 +56,8 @@ export default {
         price: 315,
         brand: 'WolfWarriorX',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        countinStock: 6,
     },
 
     {
@@ -63,7 +68,8 @@ export default {
         price: 175,
         brand: 'Wowbox',
         rating: 5,
-        numReviews: 10
+        numReviews: 10,
+        countinStock: 6,
     },
 ]
 
